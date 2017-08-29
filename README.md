@@ -16,10 +16,10 @@
     * If all of the columns match, we have a total match
     * Else, we have a partial match
 ### Output
-* Any exceptions found
-* Any partials matches found
-* Number of rows parsed
-* Number of rows matched
-* Number of rows partially matched
-* Duration in milliseconds
+* Any exceptions found - command line
+* Any partials matches found - output.txt file
+* Number of rows parsed - command line
+* Number of rows matched - command line
+* Number of rows partially matched - output.txt file 
+* Duration in milliseconds - command line
 
