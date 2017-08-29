@@ -42,7 +42,7 @@ fun main(args: Array<String>) {
                         if (row1.toMap() == row2.toMap()) {
                             rowMatched++
                         } else {
-                            println("Row for " + columnIdentifier + ": " + row1.get(columnIdentifier) + " matched, but columns differ")
+                            print("Row for " + columnIdentifier + "=" + row1.get(columnIdentifier) + " matched, but columns ")
                             println(Maps.difference(row1.toMap(), row2.toMap()))
                             rowMatchedWithoutColumns++
                         }
@@ -57,6 +57,6 @@ fun main(args: Array<String>) {
         }
     }
     println("Duration: $durationMillis ms")
-    println("Press any key to exit and enter the application")
+    println("Press any key and enter to exit and enter the application")
     readLine()
 }
